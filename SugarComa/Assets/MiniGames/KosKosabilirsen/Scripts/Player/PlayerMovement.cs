@@ -2,15 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using UnityEngine.InputSystem;
 //using Assets.MiniGames.KosKosabilirsen.Scripts.Input;
 >>>>>>> ff1befd9 (player movement & thirdperson asset added)
+=======
+using UnityEngine.InputSystem;
+using Assets.MiniGames.KosKosabilirsen.Scripts.Input;
+>>>>>>> cc92a396 (player inputs and animations added)
 
 namespace Assets.MiniGames.KosKosabilirsen.Scripts.Player
 {
     public class PlayerMovement : MonoBehaviour
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         
@@ -230,10 +236,34 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.Player
         private void MoveAction(InputAction.CallbackContext obj)
         {
             print("moveperformed");
+=======
+        private PlayerInputs _playerInput;
+
+        private Vector3 _movementDirection;
+        private bool _isJumping;
+
+        private void Awake()
+        {
+            _playerInput = new();
+
+
+            _playerInput.Movement.Move.performed += Move_performed;
+            _playerInput.Movement.Jump.started += Jump_started;
+        }
+
+        private void Jump_started(InputAction.CallbackContext obj)
+        {
+            _isJumping = obj.performed;
+        }
+
+        private void Move_performed(InputAction.CallbackContext obj)
+        {
+>>>>>>> cc92a396 (player inputs and animations added)
             Vector2 direction = obj.ReadValue<Vector2>();
             _movementDirection.x = direction.x;
             _movementDirection.z = direction.y;
         }
+<<<<<<< HEAD
         private void AddJumpActions()
         {
             _playerInput.Movement.Jump.started += JumpAction;
@@ -266,5 +296,7 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.Player
 >>>>>>> ff1befd9 (player movement & thirdperson asset added)
 =======
 >>>>>>> e93361ff (input system adjustments has been made)
+=======
+>>>>>>> cc92a396 (player inputs and animations added)
     }
 }

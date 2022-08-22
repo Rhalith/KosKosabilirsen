@@ -28,7 +28,11 @@
                 {
                     "name": "2D Vector",
                     "id": "cddb56a6-a7d1-40cc-89fb-c35dbf655a4a",
+<<<<<<< HEAD
                     "path": "2DVector(mode=1)",
+=======
+                    "path": "2DVector",
+>>>>>>> cc92a396 (player inputs and animations added)
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -61,7 +65,11 @@
                 {
                     "name": "left",
                     "id": "060637a7-151a-4023-ade3-a6563af1fa37",
+<<<<<<< HEAD
                     "path": "<Keyboard>/a",
+=======
+                    "path": "<XInputController>/buttonSouth",
+>>>>>>> cc92a396 (player inputs and animations added)
                     "interactions": "",
                     "processors": "",
                     "groups": "PlayerControl",

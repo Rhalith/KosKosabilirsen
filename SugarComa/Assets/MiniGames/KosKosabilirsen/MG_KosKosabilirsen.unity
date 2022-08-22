@@ -798,6 +798,7 @@ MeshFilter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> db8d821c (first grappling attempt)
@@ -1275,16 +1276,26 @@ Transform:
   m_Father: {fileID: 1617719200}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> cc92a396 (player inputs and animations added)
 --- !u!1001 &492734827
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 731546938}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: efef68fd9184913418da5f168f56ce57, type: 3}
       propertyPath: m_RootOrder
       value: 0
+=======
+    m_TransformParent: {fileID: 1939950017}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: efef68fd9184913418da5f168f56ce57, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+>>>>>>> cc92a396 (player inputs and animations added)
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efef68fd9184913418da5f168f56ce57, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1341,6 +1352,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: efef68fd9184913418da5f168f56ce57, type: 3}
   m_PrefabInstance: {fileID: 492734827}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!95 &492734829 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: efef68fd9184913418da5f168f56ce57, type: 3}
@@ -1574,6 +1586,8 @@ Transform:
 >>>>>>> ff1befd9 (player movement & thirdperson asset added)
 =======
 >>>>>>> e93361ff (input system adjustments has been made)
+=======
+>>>>>>> cc92a396 (player inputs and animations added)
 --- !u!1 &731546937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1584,11 +1598,15 @@ GameObject:
   m_Component:
   - component: {fileID: 731546938}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 731546941}
   - component: {fileID: 731546940}
   - component: {fileID: 731546939}
 <<<<<<< HEAD
   - component: {fileID: 731546944}
+=======
+  - component: {fileID: 731546939}
+>>>>>>> cc92a396 (player inputs and animations added)
   - component: {fileID: 731546943}
   - component: {fileID: 731546942}
 =======
@@ -1654,6 +1672,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!23 &731546940
 MeshRenderer:
 =======
@@ -1721,6 +1740,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731546937}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> cc92a396 (player inputs and animations added)
 --- !u!114 &731546942
 =======
   m_EditorHideFlags: 0
@@ -1757,6 +1778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26f86026596413946be2279c487d6fd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   _playerHealth: 0
@@ -1971,6 +1993,11 @@ Transform:
 =======
   _playerRotationSpeed: 360
 >>>>>>> e93361ff (input system adjustments has been made)
+=======
+  _playerHealth: 0
+  _playerMoveSpeed: 0
+  _playerRotationSpeed: 0
+>>>>>>> cc92a396 (player inputs and animations added)
 --- !u!1 &758089623
 GameObject:
   m_ObjectHideFlags: 0
@@ -5469,6 +5496,7 @@ MonoBehaviour:
 =======
   - {fileID: 904568746}
   - {fileID: 731546938}
+  - {fileID: 492734828}
   m_Father: {fileID: 0}
 >>>>>>> e93361ff (input system adjustments has been made)
   m_RootOrder: 2
