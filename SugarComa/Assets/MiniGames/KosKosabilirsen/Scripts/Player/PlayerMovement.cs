@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using UnityEngine.InputSystem;
 //using Assets.MiniGames.KosKosabilirsen.Scripts.Input;
@@ -11,11 +12,14 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem;
 using Assets.MiniGames.KosKosabilirsen.Scripts.Input;
 >>>>>>> cc92a396 (player inputs and animations added)
+=======
+>>>>>>> b62845da (added player scripts)
 
 namespace Assets.MiniGames.KosKosabilirsen.Scripts.Player
 {
     public class PlayerMovement : MonoBehaviour
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,5 +302,8 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.Player
 >>>>>>> e93361ff (input system adjustments has been made)
 =======
 >>>>>>> cc92a396 (player inputs and animations added)
+=======
+        
+>>>>>>> b62845da (added player scripts)
     }
 }
