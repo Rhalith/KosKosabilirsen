@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:SugarComa/Assets/MiniGames/KosKosabilirsen/StarterAssets/Environment/Art/Materials/Blue_Mat.mat.meta
 guid: 979aef027a1c86c42a15ce35fce366fa
+=======
+guid: ca83ac34df6ca5f478ef6e8b28ed3109
+>>>>>>> e93361ff (input system adjustments has been made):SugarComa/Assets/MiniGames/KosKosabilirsen/Animations/PlayerAnimations/Landing.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000

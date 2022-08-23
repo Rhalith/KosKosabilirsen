@@ -11,4 +11,8 @@ ScriptedImporter:
   generateWrapperCode: 0
   wrapperCodePath: 
   wrapperClassName: 
+<<<<<<< HEAD:SugarComa/Assets/MiniGames/KosKosabilirsen/Scripts/Input/InputReceiver.inputactions.meta
   wrapperCodeNamespace: 
+=======
+  wrapperCodeNamespace: Assets.MiniGames.KosKosabilirsen.Scripts.Input
+>>>>>>> e93361ff (input system adjustments has been made):SugarComa/Assets/MiniGames/KosKosabilirsen/Scripts/Input/Inputs.inputactions.meta
