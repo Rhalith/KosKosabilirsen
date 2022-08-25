@@ -125,6 +125,7 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> db8d821c (first grappling attempt)
@@ -413,6 +414,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 --- !u!1 &158811563
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,10 +464,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
+=======
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -504,6 +514,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
+<<<<<<< HEAD
   m_Children:
   - {fileID: 1733195329}
 <<<<<<< HEAD
@@ -513,12 +524,18 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
 >>>>>>> 824c3954 (solved aim)
+=======
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!1 &167569880
 GameObject:
   m_ObjectHideFlags: 3
@@ -679,6 +696,8 @@ Transform:
 >>>>>>> ad46891f (bugfix)
 =======
 >>>>>>> db8d821c (first grappling attempt)
+=======
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 --- !u!1 &271210561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,6 +1348,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 9ab500f1 (new character controller and combat cam)
@@ -1467,6 +1487,8 @@ MonoBehaviour:
 >>>>>>> 68c6508c (unnecessary using's deleted)
 =======
 >>>>>>> 9ab500f1 (new character controller and combat cam)
+=======
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 --- !u!1 &727924412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1541,9 +1563,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> ad46891f (bugfix)
+=======
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 --- !u!1 &731546937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1556,12 +1583,19 @@ GameObject:
   - component: {fileID: 731546941}
   - component: {fileID: 731546940}
   - component: {fileID: 731546939}
+<<<<<<< HEAD
   - component: {fileID: 731546944}
   - component: {fileID: 731546943}
   - component: {fileID: 731546942}
+=======
+  - component: {fileID: 731546945}
+  - component: {fileID: 731546944}
+  - component: {fileID: 731546943}
+  - component: {fileID: 731546946}
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1573,13 +1607,21 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731546937}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.542, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
+<<<<<<< HEAD
   m_Children: []
   m_Father: {fileID: 1939950017}
   m_RootOrder: 1
+=======
+  m_Children:
+  - {fileID: 492734828}
+  - {fileID: 1780277188}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &731546939
 CapsuleCollider:
@@ -1591,12 +1633,21 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
+<<<<<<< HEAD
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &731546940
 MeshRenderer:
+=======
+  m_Radius: 0.6591648
+  m_Height: 4.320778
+  m_Direction: 1
+  m_Center: {x: -0.05396521, y: 1.0521069, z: 0}
+--- !u!114 &731546940
+MonoBehaviour:
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1652,7 +1703,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731546937}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 477026ba1ce21654eb19ecf4ac7baba5, type: 3}
   m_Name: 
@@ -1673,7 +1724,11 @@ MonoBehaviour:
 =======
   _playerHealth: 0
   _playerMoveSpeed: 10
+<<<<<<< HEAD
   _playerSlowSpeed: 7
+=======
+  _playerSlowSpeed: 0
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   _playerRotationSpeed: 0.12
   _speedChangeRate: 10
 --- !u!114 &731546943
@@ -1706,7 +1761,10 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+<<<<<<< HEAD
 >>>>>>> a4653bb2 (new third person movement)
+=======
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 --- !u!114 &731546944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,11 +1774,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 731546937}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: a2f1fc532b4cf9e40856e5cda89e710f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 =======
+=======
+  m_Script: {fileID: 11500000, guid: 1ad1eb230c9d06e4ea67c158e8bebafe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   LandingAudioClip: {fileID: 0}
   FootstepAudioClips: []
   FootstepAudioVolume: 0.5
@@ -1769,6 +1833,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+<<<<<<< HEAD
 --- !u!1 &755350835
 GameObject:
   m_ObjectHideFlags: 3
@@ -1863,6 +1928,8 @@ Transform:
 >>>>>>> e44dfbe7 (grappling added with missingparts)
 =======
 >>>>>>> a4653bb2 (new third person movement)
+=======
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 --- !u!1 &758089623
 GameObject:
   m_ObjectHideFlags: 0
@@ -1886,7 +1953,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758089623}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1898,6 +1965,7 @@ Transform:
   - {fileID: 271210562}
   - {fileID: 956978486}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1971,6 +2039,10 @@ Transform:
   m_PrefabInstance: {fileID: 872465889}
   m_PrefabAsset: {fileID: 0}
 >>>>>>> a4653bb2 (new third person movement)
+=======
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 --- !u!1 &904568745
 GameObject:
   m_ObjectHideFlags: 0
@@ -1995,14 +2067,19 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904568745}
+<<<<<<< HEAD
   m_LocalRotation: {x: 0.16018224, y: -1e-45, z: -0, w: 0.9870875}
   m_LocalPosition: {x: 0, y: 5, z: -15}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.120000005, y: 5.162, z: -12.78}
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1072018690}
-  m_Father: {fileID: 1939950017}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &904568747
 MonoBehaviour:
@@ -2022,13 +2099,13 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 731546938}
-  m_Follow: {fileID: 731546938}
+  m_LookAt: {fileID: 0}
+  m_Follow: {fileID: 1780277188}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 40
     OrthographicSize: 5
-    NearClipPlane: 0.3
-    FarClipPlane: 1000
+    NearClipPlane: 0.2
+    FarClipPlane: 500
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -2385,8 +2462,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1072018690}
   - component: {fileID: 1072018693}
+<<<<<<< HEAD
   - component: {fileID: 1072018692}
   - component: {fileID: 1072018691}
+=======
+  - component: {fileID: 1072018695}
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -2421,6 +2502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 5, z: -15}
   m_XDamping: 1
@@ -2472,6 +2554,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 --- !u!114 &1072018695
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2496,6 +2580,7 @@ MonoBehaviour:
   CameraRadius: 0.15
   DampingIntoCollision: 0
   DampingFromCollision: 0
+<<<<<<< HEAD
 --- !u!1 &1128815448
 GameObject:
   m_ObjectHideFlags: 0
@@ -2600,6 +2685,8 @@ MeshRenderer:
 >>>>>>> ad46891f (bugfix)
 =======
 >>>>>>> 9ab500f1 (new character controller and combat cam)
+=======
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 --- !u!1 &1137880113
 GameObject:
   m_ObjectHideFlags: 0
@@ -3473,6 +3560,7 @@ Camera:
     height: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -3490,6 +3578,11 @@ Camera:
   far clip plane: 5000
   field of view: 50
 >>>>>>> a4653bb2 (new third person movement)
+=======
+  near clip plane: 0.2
+  far clip plane: 500
+  field of view: 40
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -3514,6 +3607,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472416392}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3548,6 +3642,10 @@ Transform:
   m_LocalRotation: {x: 0.11559233, y: 0.000000017113194, z: -0.0000000019860529, w: 0.9932968}
   m_LocalPosition: {x: 0, y: 3.5, z: -7}
 >>>>>>> a4653bb2 (new third person movement)
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.120000005, y: 5.162, z: -12.78}
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4542,7 +4640,11 @@ MeshFilter:
   m_GameObject: {fileID: 1634719742}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1939950016
+=======
+--- !u!1 &1780277187
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 GameObject:
   m_ObjectHideFlags: 0
 =======
@@ -4707,16 +4809,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1733195329}
   - component: {fileID: 1733195331}
   - component: {fileID: 1733195330}
   m_Layer: 5
   m_Name: Crosshair
+=======
+  - component: {fileID: 1780277188}
+  m_Layer: 0
+  m_Name: PlayerRoot
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &1733195329
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4894,6 +5003,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
 --- !u!4 &1780277188
 Transform:
   m_ObjectHideFlags: 0
@@ -4903,6 +5014,7 @@ Transform:
   m_GameObject: {fileID: 1780277187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.75, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5279,6 +5391,13 @@ MonoBehaviour:
   - {fileID: 510635741}
   m_Father: {fileID: 1171016814}
   m_RootOrder: 2
+=======
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 731546938}
+  m_RootOrder: 1
+>>>>>>> ff1befd9 (player movement & thirdperson asset added)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> 9ab500f1 (new character controller and combat cam)
 =======
