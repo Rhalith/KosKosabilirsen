@@ -10,11 +10,14 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
         public Vector2 look;
         public bool jump;
         public bool sprint;
+<<<<<<< HEAD
         public bool combat;
 <<<<<<< HEAD
         public bool grapple;
 =======
 >>>>>>> d9bb5355 (camera changes added)
+=======
+>>>>>>> 9ab500f1 (new character controller and combat cam)
 
         [Header("Movement Settings")]
         public bool analogMovement;
@@ -22,6 +25,7 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
         [Header("Mouse Cursor Settings")]
         public bool cursorLocked = true;
 
+<<<<<<< HEAD
         [Header("References")]
         [SerializeField] private ThirdPersonCam _tpCam;
 <<<<<<< HEAD
@@ -33,6 +37,8 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
 =======
 >>>>>>> d9bb5355 (camera changes added)
 
+=======
+>>>>>>> 9ab500f1 (new character controller and combat cam)
         public void OnMove(InputValue value)
         {
             MoveInput(value.Get<Vector2>());
@@ -53,6 +59,7 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
         //    SprintInput(value.isPressed);
         //}
 
+<<<<<<< HEAD
         public void OnCombat(InputValue value)
         {
             CombatInput(value.isPressed);
@@ -79,6 +86,9 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
             GrappleInput(value.isPressed);
             _grappling.StartGrapple();
         }
+=======
+
+>>>>>>> 9ab500f1 (new character controller and combat cam)
         public void MoveInput(Vector2 newMoveDirection)
         {
             move = newMoveDirection;
@@ -89,6 +99,7 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
             look = newLookDirection;
         }
 
+<<<<<<< HEAD
         private void CombatInput(bool newCombatState)
         {
             combat = newCombatState;
@@ -101,6 +112,8 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
         }
 =======
 >>>>>>> d9bb5355 (camera changes added)
+=======
+>>>>>>> 9ab500f1 (new character controller and combat cam)
         //public void JumpInput(bool newJumpState)
         //{
         //    jump = newJumpState;

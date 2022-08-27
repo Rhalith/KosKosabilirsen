@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+using Cinemachine;
+using System.Collections;
+using System.Collections.Generic;
+>>>>>>> 9ab500f1 (new character controller and combat cam)
 using UnityEngine;
 
 namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
@@ -11,6 +17,7 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
         [SerializeField] private Rigidbody _rb;
         [SerializeField] private PlayerInputReceiver _playerInputReceiver;
 
+<<<<<<< HEAD
         [Header("Cameras")]
         [SerializeField] private GameObject _combatLookAtObject;
         [SerializeField] private GameObject _thirdPersonCam;
@@ -18,6 +25,12 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
 
         public float rotationSpeed;
 
+=======
+        public float rotationSpeed;
+
+        public Transform combatLookAt;
+
+>>>>>>> 9ab500f1 (new character controller and combat cam)
         public CameraStyle currentStyle;
 
         public enum CameraStyle
@@ -31,6 +44,7 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
             RotatePlayer(currentStyle);
         }
 
+<<<<<<< HEAD
         public void ChangeCamera(CameraStyle style)
         {
             _thirdPersonCam.SetActive(false);
@@ -51,6 +65,8 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
             }
         }
 
+=======
+>>>>>>> 9ab500f1 (new character controller and combat cam)
         private void RotatePlayer(CameraStyle style)
         {
             if (style.Equals(CameraStyle.Basic))
@@ -67,11 +83,19 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
             }
             else if (style.Equals(CameraStyle.Combat))
             {
+<<<<<<< HEAD
                 Vector3 combatDirection = _combatLookAtObject.transform.position - new Vector3(transform.position.x, _combatLookAtObject.transform.position.y, transform.position.z);
+=======
+                Vector3 combatDirection = combatLookAt.position - new Vector3(transform.position.x, combatLookAt.position.y, transform.position.z);
+>>>>>>> 9ab500f1 (new character controller and combat cam)
                 _orientation.forward = combatDirection.normalized;
 
                 _playerObject.forward = combatDirection.normalized;
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9ab500f1 (new character controller and combat cam)
         }
     }
 }
