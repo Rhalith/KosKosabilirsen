@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using Assets.MiniGames.KosKosabilirsen.Scripts.Player;
 using System.Collections;
@@ -199,3 +200,23 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
     }
 
 }
+=======
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerMovement : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+>>>>>>> a4653bb2 (new third person movement)

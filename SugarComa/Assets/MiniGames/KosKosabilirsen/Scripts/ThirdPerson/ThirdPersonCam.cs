@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 using Cinemachine;
 using System.Collections;
@@ -99,3 +100,17 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
         }
     }
 }
+=======
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ThirdPersonCam : MonoBehaviour
+{
+    
+    void Update()
+    {
+        
+    }
+}
+>>>>>>> a4653bb2 (new third person movement)
