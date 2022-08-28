@@ -22,7 +22,10 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
         [Header("References")]
         [SerializeField] private ThirdPersonCam _tpCam;
         [SerializeField] private Grappling _grappling;
+<<<<<<< HEAD
         [SerializeField] private PlayerMovement _playerMovement;
+=======
+>>>>>>> db8d821c (first grappling attempt)
 
         public void OnMove(InputValue value)
         {
