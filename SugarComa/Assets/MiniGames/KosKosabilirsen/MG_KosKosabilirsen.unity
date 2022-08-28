@@ -2789,6 +2789,7 @@ GameObject:
   - component: {fileID: 1472416394}
   - component: {fileID: 1472416393}
   - component: {fileID: 1472416396}
+  - component: {fileID: 1472416397}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2899,7 +2900,7 @@ MonoBehaviour:
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
-    m_Time: 2
+    m_Time: 0.5
     m_CustomCurve:
       serializedVersion: 2
       m_Curve: []
@@ -2914,7 +2915,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> d9bb5355 (camera changes added)
 --- !u!114 &1472416397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3278,6 +3282,7 @@ MonoBehaviour:
   jump: 0
   sprint: 0
   combat: 0
+<<<<<<< HEAD
   grapple: 0
   analogMovement: 0
   cursorLocked: 1
@@ -3287,6 +3292,11 @@ MonoBehaviour:
   _playerMovement: {fileID: 1617719204}
 =======
 >>>>>>> db8d821c (first grappling attempt)
+=======
+  analogMovement: 0
+  cursorLocked: 0
+  _tpCam: {fileID: 1472416397}
+>>>>>>> d9bb5355 (camera changes added)
 --- !u!114 &1617719203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3847,7 +3857,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741085280}
-  m_LocalRotation: {x: 0.12754087, y: 0.000000008532932, z: -0.0000000010972584, w: 0.9918333}
+  m_LocalRotation: {x: 0.12754087, y: -0.000000008532932, z: 0.0000000010972584, w: 0.9918333}
   m_LocalPosition: {x: 0, y: 0, z: 0}
 >>>>>>> 824c3954 (solved aim)
   m_LocalScale: {x: 1, y: 1, z: 1}

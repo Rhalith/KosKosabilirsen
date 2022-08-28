@@ -49,6 +49,7 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+<<<<<<< HEAD
                 },
                 {
                     "name": "Grapple",
@@ -58,6 +59,8 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+=======
+>>>>>>> d9bb5355 (camera changes added)
                 }
             ],
             "bindings": [
@@ -258,6 +261,7 @@
                     "action": "Combat",
                     "isComposite": false,
                     "isPartOfComposite": false
+<<<<<<< HEAD
                 },
                 {
                     "name": "",
@@ -280,6 +284,8 @@
                     "action": "Grapple",
                     "isComposite": false,
                     "isPartOfComposite": false
+=======
+>>>>>>> d9bb5355 (camera changes added)
                 }
             ]
         }

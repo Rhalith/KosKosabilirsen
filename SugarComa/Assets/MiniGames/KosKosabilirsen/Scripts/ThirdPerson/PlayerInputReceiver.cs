@@ -11,7 +11,10 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
         public bool jump;
         public bool sprint;
         public bool combat;
+<<<<<<< HEAD
         public bool grapple;
+=======
+>>>>>>> d9bb5355 (camera changes added)
 
         [Header("Movement Settings")]
         public bool analogMovement;
@@ -21,11 +24,14 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
 
         [Header("References")]
         [SerializeField] private ThirdPersonCam _tpCam;
+<<<<<<< HEAD
         [SerializeField] private Grappling _grappling;
 <<<<<<< HEAD
         [SerializeField] private PlayerMovement _playerMovement;
 =======
 >>>>>>> db8d821c (first grappling attempt)
+=======
+>>>>>>> d9bb5355 (camera changes added)
 
         public void OnMove(InputValue value)
         {
@@ -52,12 +58,18 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
             CombatInput(value.isPressed);
             if (value.isPressed)
             {
+<<<<<<< HEAD
                 _playerMovement.Sprint = false;
+=======
+>>>>>>> d9bb5355 (camera changes added)
                 _tpCam.ChangeCamera(ThirdPersonCam.CameraStyle.Combat);
             }
             else
             {
+<<<<<<< HEAD
                 _playerMovement.Sprint = true;
+=======
+>>>>>>> d9bb5355 (camera changes added)
                 _tpCam.ChangeCamera(ThirdPersonCam.CameraStyle.Basic);
             }
         }
@@ -81,11 +93,14 @@ namespace Assets.MiniGames.KosKosabilirsen.Scripts.ThirdPerson
         {
             combat = newCombatState;
         }
+<<<<<<< HEAD
 
         private void GrappleInput(bool newGrappleState)
         {
             grapple = newGrappleState;
         }
+=======
+>>>>>>> d9bb5355 (camera changes added)
         //public void JumpInput(bool newJumpState)
         //{
         //    jump = newJumpState;
